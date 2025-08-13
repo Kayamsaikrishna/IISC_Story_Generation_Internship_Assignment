@@ -1,0 +1,15 @@
+Django>=5.2.5
+langchain>=0.3.27
+langchain-community
+transformers>=4.44.2
+diffusers>=0.34.0
+accelerate>=1.10.0
+Pillow>=11.2.1
+opencv-python>=4.11.0.86
+speechrecognition>=3.14.3
+pydub>=0.25.1
+safetensors>=0.6.2
+huggingface-hub>=0.34.4
+requests>=2.32.3
+numpy==1.25.2
+scipy>=1.16.0

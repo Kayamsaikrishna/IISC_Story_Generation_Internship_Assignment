@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Story Generator - Create Your Story{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0">🎨 Create Your Story</h2>
+                <p class="mb-0">Enter a prompt and watch AI generate a complete story with characters and scenes!</p>
+            </div>
+            <div class="card-body">
+                <form method="post" action="{% url 'generate_story' %}" enctype="multipart/form-data" id="storyForm">
+                    {% csrf_token %}
+                    
+                    <div class="mb-4">
+                        <label for="{{ form.text_prompt.id_for_label }}" class="form-label">
+                            <strong>Story Prompt</strong>
+                        </label>
+                        {{ form.text_prompt }}
+                        <div class="form-text">
+                            Examples: "A magical forest with a wise old tree", "A space explorer on Mars", "A detective in Victorian London"
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label"><strong>OR</strong></label>
+                        <div class="border rounded p-3 bg-light">
+                            <label for="{{ form.audio_file.id_for_label }}" class="form-label">
+                                🎤 Upload Audio File
+                            </label>
+                            {{ form.audio_file }}
+                            <div class="form-text">
+                                Supported formats: WAV, MP3, M4A, OGG
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg" id="generateBtn">
+                            <span class="spinner-border spinner-border-sm d-none" id="loadingSpinner"></span>
+                            <span id="btnText">🚀 Generate Story & Images</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {% if recent_generations %}
+        <div class="card shadow mt-4">
+            <div class="card-header">
+                <h3 class="mb-0">📚 Recent Stories</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    {% for story in recent_generations %}
+                    <div class="col-md-6 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h6 class="card-title">{{ story.user_prompt|truncatechars:50 }}</h6>
+                                <p class="card-text text-muted small">
+                                    {{ story.created_at|date:"M d, H:i" }}
+                                    {% if story.processing_time %}
+                                        • {{ story.processing_time|floatformat:1 }}s
+                                    {% endif %}
+                                </p>
+                                {% if story.combined_image %}
+                                    <img src="{{ story.combined_image.url }}" class="img-thumbnail mb-2" style="max-height: 100px;">
+                                {% endif %}
+                                <a href="{% url 'story_detail' story.id %}" class="btn btn-outline-primary btn-sm">View Story</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
