@@ -62,15 +62,16 @@
 
 2. **Install Dependencies**
    ```bash
-   # Install PyTorch first (choose your version)
+   # Install other requirements
+   pip install -r requirements.txt
+
+   # Install PyTorch (choose your version)
    # For CUDA 12.1
    pip install torch==2.4.0 torchvision==0.19.0 --index-url https://download.pytorch.org/whl/cu121
    
    # For CPU only
    pip install torch==2.4.0 torchvision==0.19.0 --index-url https://download.pytorch.org/whl/cpu
    
-   # Install other requirements
-   pip install -r requirements.txt
    ```
 
 3. **Download AI Models**
@@ -203,7 +204,6 @@ User Prompt: "A young inventor in a floating city creates a mechanical bird that
 
 </div>
 
----
 ---
 
 ## 🔧 **Technical Deep Dive**
