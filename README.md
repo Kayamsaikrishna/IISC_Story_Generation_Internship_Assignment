@@ -4,8 +4,8 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/python-v3.10+-blue.svg)
-![Django](https://img.shields.io/badge/django-v4.2-green.svg)
-![LangChain](https://img.shields.io/badge/langchain-v0.1.0-orange.svg)
+![Django](https://img.shields.io/badge/django-v5.2.5-green.svg)
+![LangChain](https://img.shields.io/badge/langchain-v0.3.27-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![GPU](https://img.shields.io/badge/gpu-RTX%204060-nvidia.svg)
 ![Status](https://img.shields.io/badge/status-production--ready-brightgreen.svg)
