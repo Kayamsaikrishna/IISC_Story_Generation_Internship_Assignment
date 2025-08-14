@@ -621,12 +621,6 @@ sentry_sdk.init(
 - [Automatic1111 WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - [LangChain Examples](https://github.com/langchain-ai/langchain/tree/master/docs/docs/integrations)
 - [Hugging Face Transformers](https://github.com/huggingface/transformers)
-
-### **🎯 IISc Assignment Specific**
-- **Submission Deadline**: August 14th, 2025, 11:59 PM IST
-- **Contact**: bsvivek2003@gmail.com
-- **Submission Form**: [Google Form Link](https://docs.google.com/forms/d/e/1FAIpQLSfzzxt_WNCUvX8tpveFSWUCsYRjlW03S4-jBM2HUOc1nGLUkA/viewform)
-
 ---
 
 ## 📄 **License**
