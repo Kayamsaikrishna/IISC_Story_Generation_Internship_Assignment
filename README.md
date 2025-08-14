@@ -71,7 +71,9 @@
    
    # For CPU only
    pip install torch==2.4.0 torchvision==0.19.0 --index-url https://download.pytorch.org/whl/cpu
-   
+
+   #Step 3: Install XFormers (Optional but Recommended)
+   pip install xformers==0.0.27.post2 --index-url https://download.pytorch.org/whl/cu121
    ```
 
 3. **Download AI Models**
