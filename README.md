@@ -90,20 +90,25 @@
 5. **🎉 Visit** `http://127.0.0.1:8000`
 
 ---
-🖥️ Live Demo Screenshots
-🏠 Application Interface
+## 🖥️ **Live Demo Screenshots**
+
+### **🏠 Application Interface**
+
 <div align="center">
+
 <table>
   <tr>
     <td align="center">
-      <img src="demo/Home.png" alt="Home Page Interface" width="450">
+      <img src="demo/Home.png" alt="Home Page Interface" width="600">
       <br>
       <em><b>🏠 Home Page</b></em>
       <br>
       <small>Clean, intuitive interface for story prompt input</small>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="demo/Home1.png" alt="Home Page Extended View" width="450">
+      <img src="demo/Home1.png" alt="Home Page Extended View" width="600">
       <br>
       <em><b>🎯 Input Interface</b></em>
       <br>
@@ -111,13 +116,17 @@
     </td>
   </tr>
 </table>
+
 </div>
-📊 Generated Output Showcase
+
+### **📊 Generated Output Showcase**
+
 <div align="center">
+
 <table>
   <tr>
-    <td align="center" colspan="2">
-      <img src="demo/Output_Response.png" alt="Story Generation Output" width="900">
+    <td align="center">
+      <img src="demo/Output_Response.png" alt="Story Generation Output" width="800">
       <br>
       <em><b>📖 Complete Story Generation</b></em>
       <br>
@@ -126,14 +135,16 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="demo/Output_Response1.png" alt="Visual Generation Process" width="450">
+      <img src="demo/Output_Response1.png" alt="Visual Generation Process" width="800">
       <br>
       <em><b>🎨 Visual Generation Process</b></em>
       <br>
       <small>Real-time image creation with progress indicators</small>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="demo/Output_Response2.png" alt="Final Combined Output" width="450">
+      <img src="demo/Output_Response2.png" alt="Final Combined Output" width="800">
       <br>
       <em><b>🖼️ Final Combined Scene</b></em>
       <br>
@@ -141,15 +152,16 @@
     </td>
   </tr>
 </table>
+
 </div>
-✨ Key Demo Features Highlighted
 
-🎯 Intuitive Input: Clean, responsive interface for story prompts
-⚡ Real-time Processing: Live feedback during AI generation
-🎨 Visual Integration: Seamless combination of text and images
-📱 Responsive Design: Optimized for all device sizes
-🔄 Progressive Enhancement: Smooth user experience with loading states
+### **✨ Key Demo Features Highlighted**
 
+- **🎯 Intuitive Input**: Clean, responsive interface for story prompts
+- **⚡ Real-time Processing**: Live feedback during AI generation
+- **🎨 Visual Integration**: Seamless combination of text and images
+- **📱 Responsive Design**: Optimized for all device sizes
+- **🔄 Progressive Enhancement**: Smooth user experience with loading states
 ## 📊 **Architecture Overview**
 
 ```mermaid
