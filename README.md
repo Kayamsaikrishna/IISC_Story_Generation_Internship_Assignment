@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![Python](https://img.shields.io/badge/python-v3.10+-blue.svg)
 ![Django](https://img.shields.io/badge/django-v4.2-green.svg)
 ![LangChain](https://img.shields.io/badge/langchain-v0.1.0-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -37,7 +37,7 @@
 ### **Prerequisites**
 ```bash
 # System Requirements
-- Python 3.8+
+- Python 3.10+
 - NVIDIA RTX 4060 8GB (recommended) or CPU
 - 16GB RAM minimum
 - ~10GB storage for models
@@ -140,17 +140,17 @@ graph TB
 
 ### **📝 Input Example**
 ```
-User Prompt: "A brave knight in a mystical forest"
+User Prompt: "A young inventor in a ficating city creates a mechanical bird that accidentally discovers a hidden world in the clouds."
 ```
 
 ### **📖 Generated Story**
-> *In the heart of the Whispering Woods, Sir Aelred gripped his sword as ancient magic hummed through the air. The trees themselves seemed alive, their branches reaching toward him with curious intent. As moonbeams filtered through the canopy, he discovered a hidden grove where time itself stood still...*
+> *In a world inspired by 'A young inventor in a floating city creates a mechanical bird that accidentally discovers a hidden world in the clouds.', our hero embarks on an extraordinary adventure. Through challenges and discoveries, they leam valuable lessons and grow stronger. The journey transforms them in ways they never expected, leading to a satisfying conclusion.*
 
 ### **🎭 Character Description**
-> *A noble knight in gleaming silver armor, with determined blue eyes and a weathered face that speaks of countless adventures. His auburn hair flows from beneath a polished helm, and his stance radiates confidence and honor. Medieval fantasy art style, detailed character portrait, heroic pose.*
+> *A determined protagonist with expressive eyes and confident posture  wearing appropriate attire for their adventure. Digital art style, detailed thearter design, fantasy malistic*
 
 ### **🌲 Background Description**  
-> *An ancient mystical forest shrouded in ethereal mist, with towering trees whose bark glows with soft bioluminescence. Shafts of moonlight pierce through the dense canopy, creating pools of silver light on the moss-covered ground. Fantasy landscape, cinematic lighting, magical atmosphere.*
+> *A vivid scena that matches 'A young inventor in a floating city creates a mechanical bird that accidentally discovers a hidden world in the clouds.' with rich colors and atmospheric lighting. Detailed environment, fantasy art style, cinematic composition*
 
 ### **🖼️ Visual Output**
 ```
