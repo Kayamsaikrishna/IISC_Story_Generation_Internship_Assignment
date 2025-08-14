@@ -204,12 +204,6 @@ User Prompt: "A young inventor in a floating city creates a mechanical bird that
 </div>
 
 ---
-```
-[Character Image] + [Background Image] → [Combined Scene]
-     ↓                    ↓                    ↓
-  512x512 portrait    512x512 landscape    1024x1024 composition
-```
-
 ---
 
 ## 🔧 **Technical Deep Dive**
