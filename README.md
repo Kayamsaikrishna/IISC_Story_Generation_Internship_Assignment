@@ -662,7 +662,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ### **⭐ Star this project if it helped you!**
 
-**Built with ❤️ for IISc Aerospace Engineering Internship**
+**Built for IISc Aerospace Engineering Internship Assignment**
 
 [📧 Contact](mailto:kayamsaikrishna@gmail.com) • [🐛 Report Bug](https://github.com/issues) • [💡 Request Feature](https://github.com/issues)
 
