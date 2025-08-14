@@ -72,7 +72,7 @@
    # For CPU only
    pip install torch==2.4.0 torchvision==0.19.0 --index-url https://download.pytorch.org/whl/cpu
 
-   #Step 3: Install XFormers (Optional but Recommended)
+   # Install XFormers (Optional but Recommended)
    pip install xformers==0.0.27.post2 --index-url https://download.pytorch.org/whl/cu121
    ```
 
@@ -90,6 +90,65 @@
 5. **🎉 Visit** `http://127.0.0.1:8000`
 
 ---
+🖥️ Live Demo Screenshots
+🏠 Application Interface
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <img src="demo/Home.png" alt="Home Page Interface" width="450">
+      <br>
+      <em><b>🏠 Home Page</b></em>
+      <br>
+      <small>Clean, intuitive interface for story prompt input</small>
+    </td>
+    <td align="center">
+      <img src="demo/Home1.png" alt="Home Page Extended View" width="450">
+      <br>
+      <em><b>🎯 Input Interface</b></em>
+      <br>
+      <small>User-friendly prompt entry with real-time validation</small>
+    </td>
+  </tr>
+</table>
+</div>
+📊 Generated Output Showcase
+<div align="center">
+<table>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="demo/Output_Response.png" alt="Story Generation Output" width="900">
+      <br>
+      <em><b>📖 Complete Story Generation</b></em>
+      <br>
+      <small>AI-generated narrative with character descriptions and visual elements</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="demo/Output_Response1.png" alt="Visual Generation Process" width="450">
+      <br>
+      <em><b>🎨 Visual Generation Process</b></em>
+      <br>
+      <small>Real-time image creation with progress indicators</small>
+    </td>
+    <td align="center">
+      <img src="demo/Output_Response2.png" alt="Final Combined Output" width="450">
+      <br>
+      <em><b>🖼️ Final Combined Scene</b></em>
+      <br>
+      <small>Seamlessly integrated story elements with visuals</small>
+    </td>
+  </tr>
+</table>
+</div>
+✨ Key Demo Features Highlighted
+
+🎯 Intuitive Input: Clean, responsive interface for story prompts
+⚡ Real-time Processing: Live feedback during AI generation
+🎨 Visual Integration: Seamless combination of text and images
+📱 Responsive Design: Optimized for all device sizes
+🔄 Progressive Enhancement: Smooth user experience with loading states
 
 ## 📊 **Architecture Overview**
 
@@ -156,24 +215,6 @@ User Prompt: "A young inventor in a floating city creates a mechanical bird that
 > *A vivid scena that matches 'A young inventor in a floating city creates a mechanical bird that accidentally discovers a hidden world in the clouds.' with rich colors and atmospheric lighting. Detailed environment, fantasy art style, cinematic composition*
 
 ### **🖼️ Visual Output**
-## 🎬 **Live Demo & Generated Examples**
-
-### **📹 Full Demo Video**
-<div align="center">
-
-<video width="800" controls>
-  <source src="demo/ai_story_generator_demo.mp4" type="video/mp4">
-  <source src="demo/ai_story_generator_demo.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
-
-*Complete demonstration of AI Story Generator workflow*
-
-</div>
-
----
-
-### **🖼️ Generated Visual Examples**
 
 #### **🎨 Image Generation Workflow**
 <div align="center">
@@ -207,6 +248,8 @@ User Prompt: "A young inventor in a floating city creates a mechanical bird that
 </div>
 
 ---
+
+
 
 ## 🔧 **Technical Deep Dive**
 
