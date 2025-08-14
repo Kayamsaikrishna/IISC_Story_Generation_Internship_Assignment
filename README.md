@@ -127,8 +127,8 @@ graph TB
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| **Web Framework** | Django 4.2 | HTTP handling, templating, ORM |
-| **AI Orchestration** | LangChain 0.1.0 | Chain management, prompt engineering |
+| **Web Framework** | Django 5.2 | HTTP handling, templating, ORM |
+| **AI Orchestration** | LangChain 0.3.27 | Chain management, prompt engineering |
 | **Text Generation** | DialoGPT-medium/GPT-2 | Story and description creation |
 | **Image Generation** | Stable Diffusion v1.5 | Visual content creation |
 | **Image Processing** | PIL + OpenCV | Image composition and enhancement |
