@@ -153,6 +153,57 @@ User Prompt: "A young inventor in a floating city creates a mechanical bird that
 > *A vivid scena that matches 'A young inventor in a floating city creates a mechanical bird that accidentally discovers a hidden world in the clouds.' with rich colors and atmospheric lighting. Detailed environment, fantasy art style, cinematic composition*
 
 ### **🖼️ Visual Output**
+## 🎬 **Live Demo & Generated Examples**
+
+### **📹 Full Demo Video**
+<div align="center">
+
+<video width="800" controls>
+  <source src="demo/ai_story_generator_demo.mp4" type="video/mp4">
+  <source src="demo/ai_story_generator_demo.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+*Complete demonstration of AI Story Generator workflow*
+
+</div>
+
+---
+
+### **🖼️ Generated Visual Examples**
+
+#### **🎨 Image Generation Workflow**
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="media/generated_images/characters/character_1755093771.png" alt="Generated Character" width="250">
+      <br>
+      <em><b>Step 1:</b> Character Generation</em>
+      <br>
+      <small>AI-generated protagonist with detailed features</small>
+    </td>
+    <td align="center">
+      <img src="media/generated_images/backgrounds/background_1755093780.png" alt="Generated Background" width="250">
+      <br>
+      <em><b>Step 2:</b> Background Scene</em>
+      <br>
+      <small>Atmospheric environment matching story context</small>
+    </td>
+    <td align="center">
+      <img src="media/generated_images/combined/combined_1755093786.png" alt="Final Combined Scene" width="250">
+      <br>
+      <em><b>Step 3:</b> Final Composition</em>
+      <br>
+      <small>Seamlessly blended complete scene</small>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
 ```
 [Character Image] + [Background Image] → [Combined Scene]
      ↓                    ↓                    ↓
