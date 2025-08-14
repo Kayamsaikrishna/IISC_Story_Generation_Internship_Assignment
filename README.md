@@ -140,7 +140,7 @@ graph TB
 
 ### **📝 Input Example**
 ```
-User Prompt: "A young inventor in a ficating city creates a mechanical bird that accidentally discovers a hidden world in the clouds."
+User Prompt: "A young inventor in a floating city creates a mechanical bird that accidentally discovers a hidden world in the clouds."
 ```
 
 ### **📖 Generated Story**
